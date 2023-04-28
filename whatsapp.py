@@ -4,14 +4,14 @@ import pywhatkit
 from datetime import datetime
 
 # Send a whatsapp Message to a contact at current time 
- pywhatkit.sendwhatmsg('+919157746137', 'Hi', datetime.now().hour, datetime.now().minute)
+ pywhatkit.sendwhatmsg('+917600754321', 'Hi', datetime.now().hour, datetime.now().minute)
 
 # Send a whatsapp Message to a contact current time plus 2 mminutes Message will be Delivered. 
- pywhatkit.sendwhatmsg('+919157746137', 'Hi', datetime.now().hour, datetime.now().minute + 1)
+ pywhatkit.sendwhatmsg('+917600754321', 'Hi', datetime.now().hour, datetime.now().minute + 1)
 
 #  Send an Image to a Contact in whatsapp with the no Caption
- pywhatkit.sendwhats_image("+919157746137", "images/imagez.jpg",7, 56)
- pywhatkit.sendwhats_image("+919157746137", "images/imagez.jpg",datetime.now().hour, datetime.now().minute + 1)
+ pywhatkit.sendwhats_image("+917600754321", "images/imagez.jpg",7, 56)
+ pywhatkit.sendwhats_image("+917600754321", "images/imagez.jpg",datetime.now().hour, datetime.now().minute + 1)
 
 # send image in Whatsapp Group with Caption Message that you want to give.
 pywhatkit.sendwhats_image('FDO9PTe4UD0DG2B02c8Na5',"images/imageaz.jpg", 'Hi', datetime.now().hour, datetime.now().minute)
